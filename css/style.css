@@ -1,0 +1,135 @@
+/* *************************** */
+/*          HEADER              */
+/* *************************** */
+.header {
+  color: #fff;
+}
+.navbar {
+  border-bottom: 1px solid #008ed6;
+  /* opacity: 0.8; */
+}
+/* *************************** */
+/*        NAVIGATION           */
+/* *************************** */
+.navbar .nav-link {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding-right: 1rem !important;
+}
+/* .main-nav {
+  display: flex;
+  flex-direction: column;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+} */
+/* *************************** */
+/*     CAROUSEL SECTION        */
+/* *************************** */
+.carousel-section {
+  margin-top: 6.2rem;
+}
+.carousel-item {
+  height: 450px;
+}
+.carousel-image-1 {
+  background: linear-gradient(to right, #3b5bdb, #748ffc);
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: linear-gradient(to right, #3b5bdb, #748ffc);
+  /* url("../img/carousel2.jpg"); */
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: linear-gradient(to right, #3b5bdb, #748ffc);
+  /* url("../img/carousel3.jpg"); */
+  background-size: cover;
+}
+
+/* *************************** */
+/*        MVP SECTION          */
+/* *************************** */
+
+.mvp-section {
+  padding: 9.6rem 0;
+}
+
+.heading-primary {
+  text-align: center;
+}
+.header-span {
+  display: block;
+}
+.mvp-svg,
+.services-icon {
+  width: 4.5rem;
+}
+
+/* *************************** */
+/*     SERVICES SECTION       */
+/* *************************** */
+.services-section {
+  padding: 9.6rem 0;
+}
+
+/* *************************** */
+/*       product SECTION      */
+/* *************************** */
+.product-section {
+  padding: 9.6rem 0;
+}
+
+.product1 {
+  position: relative;
+}
+
+.inner-image {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  left: 30px;
+  width: 17.5rem;
+}
+.outer-image {
+  z-index: 2;
+}
+
+/* *************************** */
+/*     ACHIVEMENT SECTION      */
+/* *************************** */
+.achivement {
+  background: linear-gradient(to right, #3b5bdb, #748ffc);
+  color: #fff;
+}
+
+/* *************************** */
+/*        Footer SECTION          */
+/* *************************** */
+.footer {
+  padding: 9.6rem 0;
+}
+.footer-bar {
+  background: linear-gradient(to right, #3b5bdb, #748ffc);
+  color: #fff;
+}
+li {
+  list-style: none;
+  text-align: left;
+}
+li a {
+  color: #868e96;
+}
